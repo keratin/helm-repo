@@ -1,0 +1,27 @@
+apiVersion: v1
+entries:
+  keratin-authn-server:
+  - apiVersion: v2
+    appVersion: 1.7.0
+    created: "2020-02-23T01:49:13.302389+01:00"
+    dependencies:
+    - condition: redis.enabled
+      name: redis
+      repository: https://charts.bitnami.com
+      tags:
+      - keratin-authn-server
+      version: 10.4.x
+    - condition: mariadb.enabled
+      name: mariadb
+      repository: https://charts.bitnami.com
+      tags:
+      - keratin-authn-server
+      version: 7.x.x
+    description: Ready to use authn microservice
+    digest: b00dd397d95aa06fe2b6bf0f0fc500f23a88dfb833f1d0a89f9203198d8f0bdd
+    name: keratin-authn-server
+    type: application
+    urls:
+    - https://obukhov.github.io/keratin-helm-repo/keratin-authn-server-0.1.0.tgz
+    version: 0.1.0
+generated: "2020-02-23T01:49:13.294718+01:00"
