@@ -1,8 +1,11 @@
 # Keratin helm charts repository
 
-Contains packaged helm charts from https://github.com/obukhov/keratin-helm-charts
+This repository contains packaged versions of helm chart. 
 
-To add repositry:
+Sources and configuration instructions:
+- https://github.com/keratin/helm-charts
+
+To install repo:
 ```
-helm repo add keratin-authn-server https://obukhov.github.io/keratin-helm-repo/keratin-authn-server/
+helm repo add keratin https://keratin.github.io/helm-repo/charts/ 
 ```
