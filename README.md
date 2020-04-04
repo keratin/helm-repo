@@ -1,9 +1,6 @@
 # Keratin helm charts repository
 
-This repository contains packaged versions of helm chart. 
-
-Sources and configuration instructions:
-- https://github.com/keratin/helm-charts
+:warning: This repository is deprecated helm chart packages are moved to https://github.com/keratin/helm-charts as github releases
 
 To install repo:
 ```
